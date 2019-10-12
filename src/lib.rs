@@ -43,6 +43,9 @@
     clippy::all
 )]
 
+#[cfg(feature = "backend-nphysics")]
+pub use amethyst_nphysics::NPhysicsBackend;
+
 pub use physics_time::PhysicsTime;
 pub use systems::PhysicsBundle;
 
