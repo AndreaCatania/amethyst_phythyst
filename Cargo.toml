@@ -11,6 +11,6 @@ readme = "README.md"
 license = "MIT"
 
 [dependencies]
-amethyst_core = "0.10.0"
-amethyst_error = "0.5.0"
+amethyst_core = "0.15.3"
+amethyst_error = "0.15.3"
 log = "0.4.6"
